@@ -126,3 +126,37 @@ body {
   margin-right: 10px;
   color: #e5e7eb;
 }
+
+.info h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 600;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  height: 320px;
+}
+
+.info-item {
+  max-width: 150px;
+  text-align: center;
+}
+
+.info-item p {
+  margin-top: 8px;
+}
+
+.info-img {
+  display: block;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px;
+  border: #3882f2 solid 3px;
+  border-radius: 10px;
+}
